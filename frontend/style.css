@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+    background: #8758ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    width: 500px;
+    background: #1A1A40;
+    margin: 5rem auto 0;
+    border: 1px solid #000;
+}
+.container h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1.75rem;
+}
+
+.add {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.add input {
+    height: 40px;
+    outline: none;
+    color: #fff;
+    width: 390px;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #8758ff;
+    margin: 1rem 0;
+}
+.button {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.button button {
+    width: 390px;
+    margin: auto;
+    white-space: nowrap;
+    height: 40px;
+    padding: .55rem;
+    background: #8758ff;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+/*  T O D O  */
+
+.todo {
+    width: 90%;
+    margin: auto;
+    background: #8758ff;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.todo-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo .icon{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+.todo .icon svg{
+    height: 1em;
+    cursor: pointer;
+}
+.todo-content{
+    font-size: .9rem;
+    margin-top: .9rem;
+}
+
+/*  U P D A T E  */
+
+.update input {
+    height: 40px;
+    outline: none;
+    color: #fff;
+    width: 95%;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #1A1A40;
+    margin: .5rem 0;
+}
+
+.update button {
+    width: 95%;
+    margin: auto;
+    white-space: nowrap;
+    height: 40px;
+    padding: .55rem;
+    background: #1A1A40 ;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    margin-bottom: 16px;
+}
